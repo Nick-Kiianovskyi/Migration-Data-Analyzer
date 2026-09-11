@@ -1,0 +1,501 @@
+SKU,MaterialName,Category,Supplier,UnitPrice,StockQty,Status,UpdatedAt
+SKU-000001,Material1001,Component,Umbrella,11.37,7,Discontinued,2026-02-12
+SKU-000002,Material1002,Packaging,Acme Corp,12.74,14,Pending,2026-03-23
+SKU-000003,Material1003,Fixture,Umbrella,14.11,21,Backorder,2026-04-07
+SKU-000004,Material1004,Consumable,Acme Corp,15.48,28,Active,2026-05-18
+SKU-000005,Material1005,Raw Material,Umbrella,16.85,35,Discontinued,2026-06-02
+SKU-000006,Material1006,Component,Acme Corp,18.22,42,Pending,2026-01-13
+SKU-000007,Material1007,Packaging,Umbrella,19.59,49,Backorder,2026-02-24
+SKU-000008,Material1008,Fixture,Acme Corp,20.96,56,Active,2026-03-08
+SKU-000009,Material1009,Consumable,Umbrella,22.33,63,Discontinued,2026-04-19
+SKU-000010,Material1010,Raw Material,Acme Corp,23.70,70,Pending,2026-05-03
+SKU-000011,Material1011,Component,Umbrella,25.07,77,Backorder,2026-06-14
+SKU-000012,Material1012,Packaging,Acme Corp,26.44,84,Active,2026-01-25
+SKU-000013,Material1013,Fixture,Umbrella,27.81,91,Discontinued,2026-02-09
+SKU-000014,Material1014,Consumable,Acme Corp,29.18,98,Pending,2026-03-20
+SKU-000015,Material1015,Raw Material,Umbrella,30.55,105,Backorder,2026-04-04
+SKU-000016,Material1016,Component,Acme Corp,31.92,112,Active,2026-05-15
+SKU-000017,Material1017,Packaging,Umbrella,33.29,119,Discontinued,2026-06-26
+SKU-000018,Material1018,Fixture,Acme Corp,34.66,126,Pending,2026-01-10
+SKU-000019,Material1019,Consumable,Umbrella,36.03,133,Backorder,2026-02-21
+SKU-000020,Material1020,Raw Material,Acme Corp,37.40,140,Active,2026-03-05
+SKU-000021,Material1021,Component,Umbrella,38.77,147,Discontinued,2026-04-16
+SKU-000022,Material1022,Packaging,Acme Corp,40.14,154,Pending,2026-05-27
+SKU-000023,Material1023,Fixture,Umbrella,41.51,161,Backorder,2026-06-11
+SKU-000024,Material1024,Consumable,Acme Corp,42.88,168,Active,2026-01-22
+SKU-000025,Material1025,Raw Material,Umbrella,44.25,175,Discontinued,2026-02-06
+SKU-000026,Material1026,Component,Acme Corp,45.62,182,Pending,2026-03-17
+SKU-000027,Material1027,Packaging,Umbrella,46.99,189,Backorder,2026-04-01
+SKU-000028,Material1028,Fixture,Acme Corp,48.36,196,Active,2026-05-12
+SKU-000029,Material1029,Consumable,Umbrella,49.73,203,Discontinued,2026-06-23
+SKU-000030,Material1030,Raw Material,Acme Corp,51.10,210,Pending,2026-01-07
+SKU-000031,Material1031,Component,Umbrella,52.47,217,Backorder,2026-02-18
+SKU-000032,Material1032,Packaging,Acme Corp,53.84,224,Active,2026-03-02
+SKU-000033,Material1033,Fixture,Umbrella,55.21,231,Discontinued,2026-04-13
+SKU-000034,Material1034,Consumable,Acme Corp,56.58,238,Pending,2026-05-24
+SKU-000035,Material1035,Raw Material,Umbrella,57.95,245,Backorder,2026-06-08
+SKU-000036,Material1036,Component,Acme Corp,10.42,252,Active,2026-01-19
+SKU-000037,Material1037,Packaging,Umbrella,11.79,259,Discontinued,2026-02-03
+SKU-000038,Material1038,Fixture,Acme Corp,13.16,266,Pending,2026-03-14
+SKU-000039,Material1039,Consumable,Umbrella,14.53,273,Backorder,2026-04-25
+SKU-000040,Material1040,Raw Material,Acme Corp,15.90,280,Active,2026-05-09
+SKU-000041,Material1041,Component,Umbrella,17.27,287,Discontinued,2026-06-20
+SKU-000042,Material1042,Packaging,Acme Corp,18.64,294,Pending,2026-01-04
+SKU-000043,Material1043,Fixture,Umbrella,20.01,301,Backorder,2026-02-15
+SKU-000044,Material1044,Consumable,Acme Corp,21.38,308,Active,2026-03-26
+SKU-000045,Material1045,Raw Material,Umbrella,22.75,315,Discontinued,2026-04-10
+SKU-000046,Material1046,Component,Acme Corp,24.12,322,Pending,2026-05-21
+SKU-000047,Material1047,Packaging,Umbrella,25.49,329,Backorder,2026-06-05
+SKU-000048,Material1048,Fixture,Acme Corp,26.86,336,Active,2026-01-16
+SKU-000049,Material1049,Consumable,Umbrella,28.23,343,Discontinued,2026-02-27
+SKU-000050,Material1050,Raw Material,Acme Corp,29.60,350,Pending,2026-03-11
+SKU-000051,Material1051,Component,Umbrella,30.97,357,Backorder,2026-04-22
+SKU-000052,Material1052,Packaging,Acme Corp,32.34,364,Active,2026-05-06
+SKU-000053,Material1053,Fixture,Umbrella,33.71,371,Discontinued,2026-06-17
+SKU-000054,Material1054,Consumable,Acme Corp,35.08,378,Pending,2026-01-01
+SKU-000055,Material1055,Raw Material,Umbrella,36.45,385,Backorder,2026-02-12
+SKU-000056,Material1056,Component,Acme Corp,37.82,392,Active,2026-03-23
+SKU-000057,Material1057,Packaging,Umbrella,39.19,399,Discontinued,2026-04-07
+SKU-000058,Material1058,Fixture,Acme Corp,40.56,406,Pending,2026-05-18
+SKU-000059,Material1059,Consumable,Umbrella,41.93,413,Backorder,2026-06-02
+SKU-000060,Material1060,Raw Material,Acme Corp,43.30,420,Active,2026-01-13
+SKU-000061,Material1061,Component,Umbrella,44.67,427,Discontinued,2026-02-24
+SKU-000062,Material1062,Packaging,Acme Corp,46.04,434,Pending,2026-03-08
+SKU-000063,Material1063,Fixture,Umbrella,47.41,441,Backorder,2026-04-19
+SKU-000064,Material1064,Consumable,Acme Corp,48.78,448,Active,2026-05-03
+SKU-000065,Material1065,Raw Material,Umbrella,50.15,455,Discontinued,2026-06-14
+SKU-000066,Material1066,Component,Acme Corp,51.52,462,Pending,2026-01-25
+SKU-000067,Material1067,Packaging,Umbrella,52.89,469,Backorder,2026-02-09
+SKU-000068,Material1068,Fixture,Acme Corp,54.26,476,Active,2026-03-20
+SKU-000069,Material1069,Consumable,Umbrella,55.63,483,Discontinued,2026-04-04
+SKU-000070,Material1070,Raw Material,Acme Corp,57.00,490,Pending,2026-05-15
+SKU-000071,Material1071,Component,Umbrella,58.37,497,Backorder,2026-06-26
+SKU-000072,Material1072,Packaging,Acme Corp,10.84,504,Active,2026-01-10
+SKU-000073,Material1073,Fixture,Umbrella,12.21,511,Discontinued,2026-02-21
+SKU-000074,Material1074,Consumable,Acme Corp,13.58,518,Pending,2026-03-05
+SKU-000075,Material1075,Raw Material,Umbrella,14.95,525,Backorder,2026-04-16
+SKU-000076,Material1076,Component,Acme Corp,16.32,532,Active,2026-05-27
+SKU-000077,Material1077,Packaging,Umbrella,17.69,539,Discontinued,2026-06-11
+SKU-000078,Material1078,Fixture,Acme Corp,19.06,546,Pending,2026-01-22
+SKU-000079,Material1079,Consumable,Umbrella,20.43,553,Backorder,2026-02-06
+SKU-000080,Material1080,Raw Material,Acme Corp,21.80,560,Active,2026-03-17
+SKU-000081,Material1081,Component,Umbrella,23.17,567,Discontinued,2026-04-01
+SKU-000082,Material1082,Packaging,Acme Corp,24.54,574,Pending,2026-05-12
+SKU-000083,Material1083,Fixture,Umbrella,25.91,581,Backorder,2026-06-23
+SKU-000084,Material1084,Consumable,Acme Corp,27.28,588,Active,2026-01-07
+SKU-000085,Material1085,Raw Material,Umbrella,28.65,595,Discontinued,2026-02-18
+SKU-000086,Material1086,Component,Acme Corp,30.02,602,Pending,2026-03-02
+SKU-000087,Material1087,Packaging,Umbrella,31.39,609,Backorder,2026-04-13
+SKU-000088,Material1088,Fixture,Acme Corp,32.76,616,Active,2026-05-24
+SKU-000089,Material1089,Consumable,Umbrella,34.13,623,Discontinued,2026-06-08
+SKU-000090,Material1090,Raw Material,Acme Corp,35.50,630,Pending,2026-01-19
+SKU-000091,Material1091,Component,Umbrella,36.87,637,Backorder,2026-02-03
+SKU-000092,Material1092,Packaging,Acme Corp,38.24,644,Active,2026-03-14
+SKU-000093,Material1093,Fixture,Umbrella,39.61,651,Discontinued,2026-04-25
+SKU-000094,Material1094,Consumable,Acme Corp,40.98,658,Pending,2026-05-09
+SKU-000095,Material1095,Raw Material,Umbrella,42.35,665,Backorder,2026-06-20
+SKU-000096,Material1096,Component,Acme Corp,43.72,672,Active,2026-01-04
+SKU-000097,Material1097,Packaging,Umbrella,45.09,679,Discontinued,2026-02-15
+SKU-000098,Material1098,Fixture,Acme Corp,46.46,686,Pending,2026-03-26
+SKU-000099,Material1099,Consumable,Umbrella,47.83,693,Backorder,2026-04-10
+SKU-000100,Material1100,Raw Material,Acme Corp,49.20,700,Active,2026-05-21
+SKU-000101,Material1101,Component,Umbrella,50.57,707,Discontinued,2026-06-05
+SKU-000102,Material1102,Packaging,Acme Corp,51.94,714,Pending,2026-01-16
+SKU-000103,Material1103,Fixture,Umbrella,53.31,721,Backorder,2026-02-27
+SKU-000104,Material1104,Consumable,Acme Corp,54.68,728,Active,2026-03-11
+SKU-000105,Material1105,Raw Material,Umbrella,56.05,735,Discontinued,2026-04-22
+SKU-000106,Material1106,Component,Acme Corp,57.42,742,Pending,2026-05-06
+SKU-000107,Material1107,Packaging,Umbrella,58.79,749,Backorder,2026-06-17
+SKU-000108,Material1108,Fixture,Acme Corp,11.26,756,Active,2026-01-01
+SKU-000109,Material1109,Consumable,Umbrella,12.63,763,Discontinued,2026-02-12
+SKU-000110,Material1110,Raw Material,Acme Corp,14.00,770,Pending,2026-03-23
+SKU-000111,Material1111,Component,Umbrella,15.37,777,Backorder,2026-04-07
+SKU-000112,Material1112,Packaging,Acme Corp,16.74,784,Active,2026-05-18
+SKU-000113,Material1113,Fixture,Umbrella,18.11,791,Discontinued,2026-06-02
+SKU-000114,Material1114,Consumable,Acme Corp,19.48,798,Pending,2026-01-13
+SKU-000115,Material1115,Raw Material,Umbrella,20.85,805,Backorder,2026-02-24
+SKU-000116,Material1116,Component,Acme Corp,22.22,812,Active,2026-03-08
+SKU-000117,Material1117,Packaging,Umbrella,23.59,819,Discontinued,2026-04-19
+SKU-000118,Material1118,Fixture,Acme Corp,24.96,826,Pending,2026-05-03
+SKU-000119,Material1119,Consumable,Umbrella,26.33,833,Backorder,2026-06-14
+SKU-000120,Material1120,Raw Material,Acme Corp,27.70,840,Active,2026-01-25
+SKU-000121,Material1121,Component,Umbrella,29.07,847,Discontinued,2026-02-09
+SKU-000122,Material1122,Packaging,Acme Corp,30.44,854,Pending,2026-03-20
+SKU-000123,Material1123,Fixture,Umbrella,31.81,861,Backorder,2026-04-04
+SKU-000124,Material1124,Consumable,Acme Corp,33.18,868,Active,2026-05-15
+SKU-000125,Material1125,Raw Material,Umbrella,34.55,875,Discontinued,2026-06-26
+SKU-000126,Material1126,Component,Acme Corp,35.92,882,Pending,2026-01-10
+SKU-000127,Material1127,Packaging,Umbrella,37.29,889,Backorder,2026-02-21
+SKU-000128,Material1128,Fixture,Acme Corp,38.66,896,Active,2026-03-05
+SKU-000129,Material1129,Consumable,Umbrella,40.03,903,Discontinued,2026-04-16
+SKU-000130,Material1130,Raw Material,Acme Corp,41.40,910,Pending,2026-05-27
+SKU-000131,Material1131,Component,Umbrella,42.77,917,Backorder,2026-06-11
+SKU-000132,Material1132,Packaging,Acme Corp,44.14,924,Active,2026-01-22
+SKU-000133,Material1133,Fixture,Umbrella,45.51,931,Discontinued,2026-02-06
+SKU-000134,Material1134,Consumable,Acme Corp,46.88,938,Pending,2026-03-17
+SKU-000135,Material1135,Raw Material,Umbrella,48.25,945,Backorder,2026-04-01
+SKU-000136,Material1136,Component,Acme Corp,49.62,952,Active,2026-05-12
+SKU-000137,Material1137,Packaging,Umbrella,50.99,959,Discontinued,2026-06-23
+SKU-000138,Material1138,Fixture,Acme Corp,52.36,966,Pending,2026-01-07
+SKU-000139,Material1139,Consumable,Umbrella,53.73,973,Backorder,2026-02-18
+SKU-000140,Material1140,Raw Material,Acme Corp,55.10,980,Active,2026-03-02
+SKU-000141,Material1141,Component,Umbrella,56.47,987,Discontinued,2026-04-13
+SKU-000142,Material1142,Packaging,Acme Corp,57.84,994,Pending,2026-05-24
+SKU-000143,Material1143,Fixture,Umbrella,10.31,1001,Backorder,2026-06-08
+SKU-000144,Material1144,Consumable,Acme Corp,11.68,1008,Active,2026-01-19
+SKU-000145,Material1145,Raw Material,Umbrella,13.05,1015,Discontinued,2026-02-03
+SKU-000146,Material1146,Component,Acme Corp,14.42,1022,Pending,2026-03-14
+SKU-000147,Material1147,Packaging,Umbrella,15.79,1029,Backorder,2026-04-25
+SKU-000148,Material1148,Fixture,Acme Corp,17.16,1036,Active,2026-05-09
+SKU-000149,Material1149,Consumable,Umbrella,18.53,1043,Discontinued,2026-06-20
+SKU-000150,Material1150,Raw Material,Acme Corp,19.90,1050,Pending,2026-01-04
+SKU-000151,Material1151,Component,Umbrella,21.27,1057,Backorder,2026-02-15
+SKU-000152,Material1152,Packaging,Acme Corp,22.64,1064,Active,2026-03-26
+SKU-000153,Material1153,Fixture,Umbrella,24.01,1071,Discontinued,2026-04-10
+SKU-000154,Material1154,Consumable,Acme Corp,25.38,1078,Pending,2026-05-21
+SKU-000155,Material1155,Raw Material,Umbrella,26.75,1085,Backorder,2026-06-05
+SKU-000156,Material1156,Component,Acme Corp,28.12,1092,Active,2026-01-16
+SKU-000157,Material1157,Packaging,Umbrella,29.49,1099,Discontinued,2026-02-27
+SKU-000158,Material1158,Fixture,Acme Corp,30.86,1106,Pending,2026-03-11
+SKU-000159,Material1159,Consumable,Umbrella,32.23,1113,Backorder,2026-04-22
+SKU-000160,Material1160,Raw Material,Acme Corp,33.60,1120,Active,2026-05-06
+SKU-000161,Material1161,Component,Umbrella,34.97,1127,Discontinued,2026-06-17
+SKU-000162,Material1162,Packaging,Acme Corp,36.34,1134,Pending,2026-01-01
+SKU-000163,Material1163,Fixture,Umbrella,37.71,1141,Backorder,2026-02-12
+SKU-000164,Material1164,Consumable,Acme Corp,39.08,1148,Active,2026-03-23
+SKU-000165,Material1165,Raw Material,Umbrella,40.45,1155,Discontinued,2026-04-07
+SKU-000166,Material1166,Component,Acme Corp,41.82,1162,Pending,2026-05-18
+SKU-000167,Material1167,Packaging,Umbrella,43.19,1169,Backorder,2026-06-02
+SKU-000168,Material1168,Fixture,Acme Corp,44.56,1176,Active,2026-01-13
+SKU-000169,Material1169,Consumable,Umbrella,45.93,1183,Discontinued,2026-02-24
+SKU-000170,Material1170,Raw Material,Acme Corp,47.30,1190,Pending,2026-03-08
+SKU-000171,Material1171,Component,Umbrella,48.67,1197,Backorder,2026-04-19
+SKU-000172,Material1172,Packaging,Acme Corp,50.04,1204,Active,2026-05-03
+SKU-000173,Material1173,Fixture,Umbrella,51.41,1211,Discontinued,2026-06-14
+SKU-000174,Material1174,Consumable,Acme Corp,52.78,1218,Pending,2026-01-25
+SKU-000175,Material1175,Raw Material,Umbrella,54.15,1225,Backorder,2026-02-09
+SKU-000176,Material1176,Component,Acme Corp,55.52,1232,Active,2026-03-20
+SKU-000177,Material1177,Packaging,Umbrella,56.89,1239,Discontinued,2026-04-04
+SKU-000178,Material1178,Fixture,Acme Corp,58.26,1246,Pending,2026-05-15
+SKU-000179,Material1179,Consumable,Umbrella,10.73,1253,Backorder,2026-06-26
+SKU-000180,Material1180,Raw Material,Acme Corp,12.10,1260,Active,2026-01-10
+SKU-000181,Material1181,Component,Umbrella,13.47,1267,Discontinued,2026-02-21
+SKU-000182,Material1182,Packaging,Acme Corp,14.84,1274,Pending,2026-03-05
+SKU-000183,Material1183,Fixture,Umbrella,16.21,1281,Backorder,2026-04-16
+SKU-000184,Material1184,Consumable,Acme Corp,17.58,1288,Active,2026-05-27
+SKU-000185,Material1185,Raw Material,Umbrella,18.95,1295,Discontinued,2026-06-11
+SKU-000186,Material1186,Component,Acme Corp,20.32,1302,Pending,2026-01-22
+SKU-000187,Material1187,Packaging,Umbrella,21.69,1309,Backorder,2026-02-06
+SKU-000188,Material1188,Fixture,Acme Corp,23.06,1316,Active,2026-03-17
+SKU-000189,Material1189,Consumable,Umbrella,24.43,1323,Discontinued,2026-04-01
+SKU-000190,Material1190,Raw Material,Acme Corp,25.80,1330,Pending,2026-05-12
+SKU-000191,Material1191,Component,Umbrella,27.17,1337,Backorder,2026-06-23
+SKU-000192,Material1192,Packaging,Acme Corp,28.54,1344,Active,2026-01-07
+SKU-000193,Material1193,Fixture,Umbrella,29.91,1351,Discontinued,2026-02-18
+SKU-000194,Material1194,Consumable,Acme Corp,31.28,1358,Pending,2026-03-02
+SKU-000195,Material1195,Raw Material,Umbrella,32.65,1365,Backorder,2026-04-13
+SKU-000196,Material1196,Component,Acme Corp,34.02,1372,Active,2026-05-24
+SKU-000197,Material1197,Packaging,Umbrella,35.39,1379,Discontinued,2026-06-08
+SKU-000198,Material1198,Fixture,Acme Corp,36.76,1386,Pending,2026-01-19
+SKU-000199,Material1199,Consumable,Umbrella,38.13,1393,Backorder,2026-02-03
+SKU-000200,Material1200,Raw Material,Acme Corp,39.50,1400,Active,2026-03-14
+SKU-000201,Material1201,Component,Umbrella,40.87,1407,Discontinued,2026-04-25
+SKU-000202,Material1202,Packaging,Acme Corp,42.24,1414,Pending,2026-05-09
+SKU-000203,Material1203,Fixture,Umbrella,43.61,1421,Backorder,2026-06-20
+SKU-000204,Material1204,Consumable,Acme Corp,44.98,1428,Active,2026-01-04
+SKU-000205,Material1205,Raw Material,Umbrella,46.35,1435,Discontinued,2026-02-15
+SKU-000206,Material1206,Component,Acme Corp,47.72,1442,Pending,2026-03-26
+SKU-000207,Material1207,Packaging,Umbrella,49.09,1449,Backorder,2026-04-10
+SKU-000208,Material1208,Fixture,Acme Corp,50.46,1456,Active,2026-05-21
+SKU-000209,Material1209,Consumable,Umbrella,51.83,1463,Discontinued,2026-06-05
+SKU-000210,Material1210,Raw Material,Acme Corp,53.20,1470,Pending,2026-01-16
+SKU-000211,Material1211,Component,Umbrella,54.57,1477,Backorder,2026-02-27
+SKU-000212,Material1212,Packaging,Acme Corp,55.94,1484,Active,2026-03-11
+SKU-000213,Material1213,Fixture,Umbrella,57.31,1491,Discontinued,2026-04-22
+SKU-000214,Material1214,Consumable,Acme Corp,58.68,1498,Pending,2026-05-06
+SKU-000215,Material1215,Raw Material,Umbrella,11.15,1505,Backorder,2026-06-17
+SKU-000216,Material1216,Component,Acme Corp,12.52,1512,Active,2026-01-01
+SKU-000217,Material1217,Packaging,Umbrella,13.89,1519,Discontinued,2026-02-12
+SKU-000218,Material1218,Fixture,Acme Corp,15.26,1526,Pending,2026-03-23
+SKU-000219,Material1219,Consumable,Umbrella,16.63,1533,Backorder,2026-04-07
+SKU-000220,Material1220,Raw Material,Acme Corp,18.00,1540,Active,2026-05-18
+SKU-000221,Material1221,Component,Umbrella,19.37,1547,Discontinued,2026-06-02
+SKU-000222,Material1222,Packaging,Acme Corp,20.74,1554,Pending,2026-01-13
+SKU-000223,Material1223,Fixture,Umbrella,22.11,1561,Backorder,2026-02-24
+SKU-000224,Material1224,Consumable,Acme Corp,23.48,1568,Active,2026-03-08
+SKU-000225,Material1225,Raw Material,Umbrella,24.85,1575,Discontinued,2026-04-19
+SKU-000226,Material1226,Component,Acme Corp,26.22,1582,Pending,2026-05-03
+SKU-000227,Material1227,Packaging,Umbrella,27.59,1589,Backorder,2026-06-14
+SKU-000228,Material1228,Fixture,Acme Corp,28.96,1596,Active,2026-01-25
+SKU-000229,Material1229,Consumable,Umbrella,30.33,1603,Discontinued,2026-02-09
+SKU-000230,Material1230,Raw Material,Acme Corp,31.70,1610,Pending,2026-03-20
+SKU-000231,Material1231,Component,Umbrella,33.07,1617,Backorder,2026-04-04
+SKU-000232,Material1232,Packaging,Acme Corp,34.44,1624,Active,2026-05-15
+SKU-000233,Material1233,Fixture,Umbrella,35.81,1631,Discontinued,2026-06-26
+SKU-000234,Material1234,Consumable,Acme Corp,37.18,1638,Pending,2026-01-10
+SKU-000235,Material1235,Raw Material,Umbrella,38.55,1645,Backorder,2026-02-21
+SKU-000236,Material1236,Component,Acme Corp,39.92,1652,Active,2026-03-05
+SKU-000237,Material1237,Packaging,Umbrella,41.29,1659,Discontinued,2026-04-16
+SKU-000238,Material1238,Fixture,Acme Corp,42.66,1666,Pending,2026-05-27
+SKU-000239,Material1239,Consumable,Umbrella,44.03,1673,Backorder,2026-06-11
+SKU-000240,Material1240,Raw Material,Acme Corp,45.40,1680,Active,2026-01-22
+SKU-000241,Material1241,Component,Umbrella,46.77,1687,Discontinued,2026-02-06
+SKU-000242,Material1242,Packaging,Acme Corp,48.14,1694,Pending,2026-03-17
+SKU-000243,Material1243,Fixture,Umbrella,49.51,1701,Backorder,2026-04-01
+SKU-000244,Material1244,Consumable,Acme Corp,50.88,1708,Active,2026-05-12
+SKU-000245,Material1245,Raw Material,Umbrella,52.25,1715,Discontinued,2026-06-23
+SKU-000246,Material1246,Component,Acme Corp,53.62,1722,Pending,2026-01-07
+SKU-000247,Material1247,Packaging,Umbrella,54.99,1729,Backorder,2026-02-18
+SKU-000248,Material1248,Fixture,Acme Corp,56.36,1736,Active,2026-03-02
+SKU-000249,Material1249,Consumable,Umbrella,57.73,1743,Discontinued,2026-04-13
+SKU-000250,Material1250,Raw Material,Acme Corp,10.20,1750,Pending,2026-05-24
+SKU-000251,Material1251,Component,Umbrella,11.57,1757,Backorder,2026-06-08
+SKU-000252,Material1252,Packaging,Acme Corp,12.94,1764,Active,2026-01-19
+SKU-000253,Material1253,Fixture,Umbrella,14.31,1771,Discontinued,2026-02-03
+SKU-000254,Material1254,Consumable,Acme Corp,15.68,1778,Pending,2026-03-14
+SKU-000255,Material1255,Raw Material,Umbrella,17.05,1785,Backorder,2026-04-25
+SKU-000256,Material1256,Component,Acme Corp,18.42,1792,Active,2026-05-09
+SKU-000257,Material1257,Packaging,Umbrella,19.79,1799,Discontinued,2026-06-20
+SKU-000258,Material1258,Fixture,Acme Corp,21.16,1806,Pending,2026-01-04
+SKU-000259,Material1259,Consumable,Umbrella,22.53,1813,Backorder,2026-02-15
+SKU-000260,Material1260,Raw Material,Acme Corp,23.90,1820,Active,2026-03-26
+SKU-000261,Material1261,Component,Umbrella,25.27,1827,Discontinued,2026-04-10
+SKU-000262,Material1262,Packaging,Acme Corp,26.64,1834,Pending,2026-05-21
+SKU-000263,Material1263,Fixture,Umbrella,28.01,1841,Backorder,2026-06-05
+SKU-000264,Material1264,Consumable,Acme Corp,29.38,1848,Active,2026-01-16
+SKU-000265,Material1265,Raw Material,Umbrella,30.75,1855,Discontinued,2026-02-27
+SKU-000266,Material1266,Component,Acme Corp,32.12,1862,Pending,2026-03-11
+SKU-000267,Material1267,Packaging,Umbrella,33.49,1869,Backorder,2026-04-22
+SKU-000268,Material1268,Fixture,Acme Corp,34.86,1876,Active,2026-05-06
+SKU-000269,Material1269,Consumable,Umbrella,36.23,1883,Discontinued,2026-06-17
+SKU-000270,Material1270,Raw Material,Acme Corp,37.60,1890,Pending,2026-01-01
+SKU-000271,Material1271,Component,Umbrella,38.97,1897,Backorder,2026-02-12
+SKU-000272,Material1272,Packaging,Acme Corp,40.34,1904,Active,2026-03-23
+SKU-000273,Material1273,Fixture,Umbrella,41.71,1911,Discontinued,2026-04-07
+SKU-000274,Material1274,Consumable,Acme Corp,43.08,1918,Pending,2026-05-18
+SKU-000275,Material1275,Raw Material,Umbrella,44.45,1925,Backorder,2026-06-02
+SKU-000276,Material1276,Component,Acme Corp,45.82,1932,Active,2026-01-13
+SKU-000277,Material1277,Packaging,Umbrella,47.19,1939,Discontinued,2026-02-24
+SKU-000278,Material1278,Fixture,Acme Corp,48.56,1946,Pending,2026-03-08
+SKU-000279,Material1279,Consumable,Umbrella,49.93,1953,Backorder,2026-04-19
+SKU-000280,Material1280,Raw Material,Acme Corp,51.30,1960,Active,2026-05-03
+SKU-000281,Material1281,Component,Umbrella,52.67,1967,Discontinued,2026-06-14
+SKU-000282,Material1282,Packaging,Acme Corp,54.04,1974,Pending,2026-01-25
+SKU-000283,Material1283,Fixture,Umbrella,55.41,1981,Backorder,2026-02-09
+SKU-000284,Material1284,Consumable,Acme Corp,56.78,1988,Active,2026-03-20
+SKU-000285,Material1285,Raw Material,Umbrella,58.15,1995,Discontinued,2026-04-04
+SKU-000286,Material1286,Component,Acme Corp,10.62,2,Pending,2026-05-15
+SKU-000287,Material1287,Packaging,Umbrella,11.99,9,Backorder,2026-06-26
+SKU-000288,Material1288,Fixture,Acme Corp,13.36,16,Active,2026-01-10
+SKU-000289,Material1289,Consumable,Umbrella,14.73,23,Discontinued,2026-02-21
+SKU-000290,Material1290,Raw Material,Acme Corp,16.10,30,Pending,2026-03-05
+SKU-000291,Material1291,Component,Umbrella,17.47,37,Backorder,2026-04-16
+SKU-000292,Material1292,Packaging,Acme Corp,18.84,44,Active,2026-05-27
+SKU-000293,Material1293,Fixture,Umbrella,20.21,51,Discontinued,2026-06-11
+SKU-000294,Material1294,Consumable,Acme Corp,21.58,58,Pending,2026-01-22
+SKU-000295,Material1295,Raw Material,Umbrella,22.95,65,Backorder,2026-02-06
+SKU-000296,Material1296,Component,Acme Corp,24.32,72,Active,2026-03-17
+SKU-000297,Material1297,Packaging,Umbrella,25.69,79,Discontinued,2026-04-01
+SKU-000298,Material1298,Fixture,Acme Corp,27.06,86,Pending,2026-05-12
+SKU-000299,Material1299,Consumable,Umbrella,28.43,93,Backorder,2026-06-23
+SKU-000300,Material1300,Raw Material,Acme Corp,29.80,100,Active,2026-01-07
+SKU-000301,Material1301,Component,Umbrella,31.17,107,Discontinued,2026-02-18
+SKU-000302,Material1302,Packaging,Acme Corp,32.54,114,Pending,2026-03-02
+SKU-000303,Material1303,Fixture,Umbrella,33.91,121,Backorder,2026-04-13
+SKU-000304,Material1304,Consumable,Acme Corp,35.28,128,Active,2026-05-24
+SKU-000305,Material1305,Raw Material,Umbrella,36.65,135,Discontinued,2026-06-08
+SKU-000306,Material1306,Component,Acme Corp,38.02,142,Pending,2026-01-19
+SKU-000307,Material1307,Packaging,Umbrella,39.39,149,Backorder,2026-02-03
+SKU-000308,Material1308,Fixture,Acme Corp,40.76,156,Active,2026-03-14
+SKU-000309,Material1309,Consumable,Umbrella,42.13,163,Discontinued,2026-04-25
+SKU-000310,Material1310,Raw Material,Acme Corp,43.50,170,Pending,2026-05-09
+SKU-000311,Material1311,Component,Umbrella,44.87,177,Backorder,2026-06-20
+SKU-000312,Material1312,Packaging,Acme Corp,46.24,184,Active,2026-01-04
+SKU-000313,Material1313,Fixture,Umbrella,47.61,191,Discontinued,2026-02-15
+SKU-000314,Material1314,Consumable,Acme Corp,48.98,198,Pending,2026-03-26
+SKU-000315,Material1315,Raw Material,Umbrella,50.35,205,Backorder,2026-04-10
+SKU-000316,Material1316,Component,Acme Corp,51.72,212,Active,2026-05-21
+SKU-000317,Material1317,Packaging,Umbrella,53.09,219,Discontinued,2026-06-05
+SKU-000318,Material1318,Fixture,Acme Corp,54.46,226,Pending,2026-01-16
+SKU-000319,Material1319,Consumable,Umbrella,55.83,233,Backorder,2026-02-27
+SKU-000320,Material1320,Raw Material,Acme Corp,57.20,240,Active,2026-03-11
+SKU-000321,Material1321,Component,Umbrella,58.57,247,Discontinued,2026-04-22
+SKU-000322,Material1322,Packaging,Acme Corp,11.04,254,Pending,2026-05-06
+SKU-000323,Material1323,Fixture,Umbrella,12.41,261,Backorder,2026-06-17
+SKU-000324,Material1324,Consumable,Acme Corp,13.78,268,Active,2026-01-01
+SKU-000325,Material1325,Raw Material,Umbrella,15.15,275,Discontinued,2026-02-12
+SKU-000326,Material1326,Component,Acme Corp,16.52,282,Pending,2026-03-23
+SKU-000327,Material1327,Packaging,Umbrella,17.89,289,Backorder,2026-04-07
+SKU-000328,Material1328,Fixture,Acme Corp,19.26,296,Active,2026-05-18
+SKU-000329,Material1329,Consumable,Umbrella,20.63,303,Discontinued,2026-06-02
+SKU-000330,Material1330,Raw Material,Acme Corp,22.00,310,Pending,2026-01-13
+SKU-000331,Material1331,Component,Umbrella,23.37,317,Backorder,2026-02-24
+SKU-000332,Material1332,Packaging,Acme Corp,24.74,324,Active,2026-03-08
+SKU-000333,Material1333,Fixture,Umbrella,26.11,331,Discontinued,2026-04-19
+SKU-000334,Material1334,Consumable,Acme Corp,27.48,338,Pending,2026-05-03
+SKU-000335,Material1335,Raw Material,Umbrella,28.85,345,Backorder,2026-06-14
+SKU-000336,Material1336,Component,Acme Corp,30.22,352,Active,2026-01-25
+SKU-000337,Material1337,Packaging,Umbrella,31.59,359,Discontinued,2026-02-09
+SKU-000338,Material1338,Fixture,Acme Corp,32.96,366,Pending,2026-03-20
+SKU-000339,Material1339,Consumable,Umbrella,34.33,373,Backorder,2026-04-04
+SKU-000340,Material1340,Raw Material,Acme Corp,35.70,380,Active,2026-05-15
+SKU-000341,Material1341,Component,Umbrella,37.07,387,Discontinued,2026-06-26
+SKU-000342,Material1342,Packaging,Acme Corp,38.44,394,Pending,2026-01-10
+SKU-000343,Material1343,Fixture,Umbrella,39.81,401,Backorder,2026-02-21
+SKU-000344,Material1344,Consumable,Acme Corp,41.18,408,Active,2026-03-05
+SKU-000345,Material1345,Raw Material,Umbrella,42.55,415,Discontinued,2026-04-16
+SKU-000346,Material1346,Component,Acme Corp,43.92,422,Pending,2026-05-27
+SKU-000347,Material1347,Packaging,Umbrella,45.29,429,Backorder,2026-06-11
+SKU-000348,Material1348,Fixture,Acme Corp,46.66,436,Active,2026-01-22
+SKU-000349,Material1349,Consumable,Umbrella,48.03,443,Discontinued,2026-02-06
+SKU-000350,Material1350,Raw Material,Acme Corp,49.40,450,Pending,2026-03-17
+SKU-000351,Material1351,Component,Umbrella,50.77,457,Backorder,2026-04-01
+SKU-000352,Material1352,Packaging,Acme Corp,52.14,464,Active,2026-05-12
+SKU-000353,Material1353,Fixture,Umbrella,53.51,471,Discontinued,2026-06-23
+SKU-000354,Material1354,Consumable,Acme Corp,54.88,478,Pending,2026-01-07
+SKU-000355,Material1355,Raw Material,Umbrella,56.25,485,Backorder,2026-02-18
+SKU-000356,Material1356,Component,Acme Corp,57.62,492,Active,2026-03-02
+SKU-000357,Material1357,Packaging,Umbrella,10.09,499,Discontinued,2026-04-13
+SKU-000358,Material1358,Fixture,Acme Corp,11.46,506,Pending,2026-05-24
+SKU-000359,Material1359,Consumable,Umbrella,12.83,513,Backorder,2026-06-08
+SKU-000360,Material1360,Raw Material,Acme Corp,14.20,520,Active,2026-01-19
+SKU-000361,Material1361,Component,Umbrella,15.57,527,Discontinued,2026-02-03
+SKU-000362,Material1362,Packaging,Acme Corp,16.94,534,Pending,2026-03-14
+SKU-000363,Material1363,Fixture,Umbrella,18.31,541,Backorder,2026-04-25
+SKU-000364,Material1364,Consumable,Acme Corp,19.68,548,Active,2026-05-09
+SKU-000365,Material1365,Raw Material,Umbrella,21.05,555,Discontinued,2026-06-20
+SKU-000366,Material1366,Component,Acme Corp,22.42,562,Pending,2026-01-04
+SKU-000367,Material1367,Packaging,Umbrella,23.79,569,Backorder,2026-02-15
+SKU-000368,Material1368,Fixture,Acme Corp,25.16,576,Active,2026-03-26
+SKU-000369,Material1369,Consumable,Umbrella,26.53,583,Discontinued,2026-04-10
+SKU-000370,Material1370,Raw Material,Acme Corp,27.90,590,Pending,2026-05-21
+SKU-000371,Material1371,Component,Umbrella,29.27,597,Backorder,2026-06-05
+SKU-000372,Material1372,Packaging,Acme Corp,30.64,604,Active,2026-01-16
+SKU-000373,Material1373,Fixture,Umbrella,32.01,611,Discontinued,2026-02-27
+SKU-000374,Material1374,Consumable,Acme Corp,33.38,618,Pending,2026-03-11
+SKU-000375,Material1375,Raw Material,Umbrella,34.75,625,Backorder,2026-04-22
+SKU-000376,Material1376,Component,Acme Corp,36.12,632,Active,2026-05-06
+SKU-000377,Material1377,Packaging,Umbrella,37.49,639,Discontinued,2026-06-17
+SKU-000378,Material1378,Fixture,Acme Corp,38.86,646,Pending,2026-01-01
+SKU-000379,Material1379,Consumable,Umbrella,40.23,653,Backorder,2026-02-12
+SKU-000380,Material1380,Raw Material,Acme Corp,41.60,660,Active,2026-03-23
+SKU-000381,Material1381,Component,Umbrella,42.97,667,Discontinued,2026-04-07
+SKU-000382,Material1382,Packaging,Acme Corp,44.34,674,Pending,2026-05-18
+SKU-000383,Material1383,Fixture,Umbrella,45.71,681,Backorder,2026-06-02
+SKU-000384,Material1384,Consumable,Acme Corp,47.08,688,Active,2026-01-13
+SKU-000385,Material1385,Raw Material,Umbrella,48.45,695,Discontinued,2026-02-24
+SKU-000386,Material1386,Component,Acme Corp,49.82,702,Pending,2026-03-08
+SKU-000387,Material1387,Packaging,Umbrella,51.19,709,Backorder,2026-04-19
+SKU-000388,Material1388,Fixture,Acme Corp,52.56,716,Active,2026-05-03
+SKU-000389,Material1389,Consumable,Umbrella,53.93,723,Discontinued,2026-06-14
+SKU-000390,Material1390,Raw Material,Acme Corp,55.30,730,Pending,2026-01-25
+SKU-000391,Material1391,Component,Umbrella,56.67,737,Backorder,2026-02-09
+SKU-000392,Material1392,Packaging,Acme Corp,58.04,744,Active,2026-03-20
+SKU-000393,Material1393,Fixture,Umbrella,10.51,751,Discontinued,2026-04-04
+SKU-000394,Material1394,Consumable,Acme Corp,11.88,758,Pending,2026-05-15
+SKU-000395,Material1395,Raw Material,Umbrella,13.25,765,Backorder,2026-06-26
+SKU-000396,Material1396,Component,Acme Corp,14.62,772,Active,2026-01-10
+SKU-000397,Material1397,Packaging,Umbrella,15.99,779,Discontinued,2026-02-21
+SKU-000398,Material1398,Fixture,Acme Corp,17.36,786,Pending,2026-03-05
+SKU-000399,Material1399,Consumable,Umbrella,18.73,793,Backorder,2026-04-16
+SKU-000400,Material1400,Raw Material,Acme Corp,20.10,800,Active,2026-05-27
+SKU-000401,Material1401,Component,Umbrella,21.47,807,Discontinued,2026-06-11
+SKU-000402,Material1402,Packaging,Acme Corp,22.84,814,Pending,2026-01-22
+SKU-000403,Material1403,Fixture,Umbrella,24.21,821,Backorder,2026-02-06
+SKU-000404,Material1404,Consumable,Acme Corp,25.58,828,Active,2026-03-17
+SKU-000405,Material1405,Raw Material,Umbrella,26.95,835,Discontinued,2026-04-01
+SKU-000406,Material1406,Component,Acme Corp,28.32,842,Pending,2026-05-12
+SKU-000407,Material1407,Packaging,Umbrella,29.69,849,Backorder,2026-06-23
+SKU-000408,Material1408,Fixture,Acme Corp,31.06,856,Active,2026-01-07
+SKU-000409,Material1409,Consumable,Umbrella,32.43,863,Discontinued,2026-02-18
+SKU-000410,Material1410,Raw Material,Acme Corp,33.80,870,Pending,2026-03-02
+SKU-000411,Material1411,Component,Umbrella,35.17,877,Backorder,2026-04-13
+SKU-000412,Material1412,Packaging,Acme Corp,36.54,884,Active,2026-05-24
+SKU-000413,Material1413,Fixture,Umbrella,37.91,891,Discontinued,2026-06-08
+SKU-000414,Material1414,Consumable,Acme Corp,39.28,898,Pending,2026-01-19
+SKU-000415,Material1415,Raw Material,Umbrella,40.65,905,Backorder,2026-02-03
+SKU-000416,Material1416,Component,Acme Corp,42.02,912,Active,2026-03-14
+SKU-000417,Material1417,Packaging,Umbrella,43.39,919,Discontinued,2026-04-25
+SKU-000418,Material1418,Fixture,Acme Corp,44.76,926,Pending,2026-05-09
+SKU-000419,Material1419,Consumable,Umbrella,46.13,933,Backorder,2026-06-20
+SKU-000420,Material1420,Raw Material,Acme Corp,47.50,940,Active,2026-01-04
+SKU-000421,Material1421,Component,Umbrella,48.87,947,Discontinued,2026-02-15
+SKU-000422,Material1422,Packaging,Acme Corp,50.24,954,Pending,2026-03-26
+SKU-000423,Material1423,Fixture,Umbrella,51.61,961,Backorder,2026-04-10
+SKU-000424,Material1424,Consumable,Acme Corp,52.98,968,Active,2026-05-21
+SKU-000425,Material1425,Raw Material,Umbrella,54.35,975,Discontinued,2026-06-05
+SKU-000426,Material1426,Component,Acme Corp,55.72,982,Pending,2026-01-16
+SKU-000427,Material1427,Packaging,Umbrella,57.09,989,Backorder,2026-02-27
+SKU-000428,Material1428,Fixture,Acme Corp,58.46,996,Active,2026-03-11
+SKU-000429,Material1429,Consumable,Umbrella,10.93,1003,Discontinued,2026-04-22
+SKU-000430,Material1430,Raw Material,Acme Corp,12.30,1010,Pending,2026-05-06
+SKU-000431,Material1431,Component,Umbrella,13.67,1017,Backorder,2026-06-17
+SKU-000432,Material1432,Packaging,Acme Corp,15.04,1024,Active,2026-01-01
+SKU-000433,Material1433,Fixture,Umbrella,16.41,1031,Discontinued,2026-02-12
+SKU-000434,Material1434,Consumable,Acme Corp,17.78,1038,Pending,2026-03-23
+SKU-000435,Material1435,Raw Material,Umbrella,19.15,1045,Backorder,2026-04-07
+SKU-000436,Material1436,Component,Acme Corp,20.52,1052,Active,2026-05-18
+SKU-000437,Material1437,Packaging,Umbrella,21.89,1059,Discontinued,2026-06-02
+SKU-000438,Material1438,Fixture,Acme Corp,23.26,1066,Pending,2026-01-13
+SKU-000439,Material1439,Consumable,Umbrella,24.63,1073,Backorder,2026-02-24
+SKU-000440,Material1440,Raw Material,Acme Corp,26.00,1080,Active,2026-03-08
+SKU-000441,Material1441,Component,Umbrella,27.37,1087,Discontinued,2026-04-19
+SKU-000442,Material1442,Packaging,Acme Corp,28.74,1094,Pending,2026-05-03
+SKU-000443,Material1443,Fixture,Umbrella,30.11,1101,Backorder,2026-06-14
+SKU-000444,Material1444,Consumable,Acme Corp,31.48,1108,Active,2026-01-25
+SKU-000445,Material1445,Raw Material,Umbrella,32.85,1115,Discontinued,2026-02-09
+SKU-000446,Material1446,Component,Acme Corp,34.22,1122,Pending,2026-03-20
+SKU-000447,Material1447,Packaging,Umbrella,35.59,1129,Backorder,2026-04-04
+SKU-000448,Material1448,Fixture,Acme Corp,36.96,1136,Active,2026-05-15
+SKU-000449,Material1449,Consumable,Umbrella,38.33,1143,Discontinued,2026-06-26
+SKU-000450,Material1450,Raw Material,Acme Corp,39.70,1150,Pending,2026-01-10
+SKU-000451,Material1451,Component,Umbrella,41.07,1157,Backorder,2026-02-21
+SKU-000452,Material1452,Packaging,Acme Corp,42.44,1164,Active,2026-03-05
+SKU-000453,Material1453,Fixture,Umbrella,43.81,1171,Discontinued,2026-04-16
+SKU-000454,Material1454,Consumable,Acme Corp,45.18,1178,Pending,2026-05-27
+SKU-000455,Material1455,Raw Material,Umbrella,46.55,1185,Backorder,2026-06-11
+SKU-000456,Material1456,Component,Acme Corp,47.92,1192,Active,2026-01-22
+SKU-000457,Material1457,Packaging,Umbrella,49.29,1199,Discontinued,2026-02-06
+SKU-000458,Material1458,Fixture,Acme Corp,50.66,1206,Pending,2026-03-17
+SKU-000459,Material1459,Consumable,Umbrella,52.03,1213,Backorder,2026-04-01
+SKU-000460,Material1460,Raw Material,Acme Corp,53.40,1220,Active,2026-05-12
+SKU-000461,Material1461,Component,Umbrella,54.77,1227,Discontinued,2026-06-23
+SKU-000462,Material1462,Packaging,Acme Corp,56.14,1234,Pending,2026-01-07
+SKU-000463,Material1463,Fixture,Umbrella,57.51,1241,Backorder,2026-02-18
+SKU-000464,Material1464,Consumable,Acme Corp,58.88,1248,Active,2026-03-02
+SKU-000465,Material1465,Raw Material,Umbrella,11.35,1255,Discontinued,2026-04-13
+SKU-000466,Material1466,Component,Acme Corp,12.72,1262,Pending,2026-05-24
+SKU-000467,Material1467,Packaging,Umbrella,14.09,1269,Backorder,2026-06-08
+SKU-000468,Material1468,Fixture,Acme Corp,15.46,1276,Active,2026-01-19
+SKU-000469,Material1469,Consumable,Umbrella,16.83,1283,Discontinued,2026-02-03
+SKU-000470,Material1470,Raw Material,Acme Corp,18.20,1290,Pending,2026-03-14
+SKU-000471,Material1471,Component,Umbrella,19.57,1297,Backorder,2026-04-25
+SKU-000472,Material1472,Packaging,Acme Corp,20.94,1304,Active,2026-05-09
+SKU-000473,Material1473,Fixture,Umbrella,22.31,1311,Discontinued,2026-06-20
+SKU-000474,Material1474,Consumable,Acme Corp,23.68,1318,Pending,2026-01-04
+SKU-000475,Material1475,Raw Material,Umbrella,25.05,1325,Backorder,2026-02-15
+SKU-000476,Material1476,Component,Acme Corp,26.42,1332,Active,2026-03-26
+SKU-000477,Material1477,Packaging,Umbrella,27.79,1339,Discontinued,2026-04-10
+SKU-000478,Material1478,Fixture,Acme Corp,29.16,1346,Pending,2026-05-21
+SKU-000479,Material1479,Consumable,Umbrella,30.53,1353,Backorder,2026-06-05
+SKU-000480,Material1480,Raw Material,Acme Corp,31.90,1360,Active,2026-01-16
+SKU-000481,Material1481,Component,Umbrella,33.27,1367,Discontinued,2026-02-27
+SKU-000482,Material1482,Packaging,Acme Corp,34.64,1374,Pending,2026-03-11
+SKU-000483,Material1483,Fixture,Umbrella,36.01,1381,Backorder,2026-04-22
+SKU-000484,Material1484,Consumable,Acme Corp,37.38,1388,Active,2026-05-06
+SKU-000485,Material1485,Raw Material,Umbrella,38.75,1395,Discontinued,2026-06-17
+SKU-000486,Material1486,Component,Acme Corp,40.12,1402,Pending,2026-01-01
+SKU-000487,Material1487,Packaging,Umbrella,41.49,1409,Backorder,2026-02-12
+SKU-000488,Material1488,Fixture,Acme Corp,42.86,1416,Active,2026-03-23
+SKU-000489,Material1489,Consumable,Umbrella,44.23,1423,Discontinued,2026-04-07
+SKU-000490,Material1490,Raw Material,Acme Corp,45.60,1430,Pending,2026-05-18
+SKU-000491,Material1491,Component,Umbrella,46.97,1437,Backorder,2026-06-02
+SKU-000492,Material1492,Packaging,Acme Corp,48.34,1444,Active,2026-01-13
+SKU-000493,Material1493,Fixture,Umbrella,49.71,1451,Discontinued,2026-02-24
+SKU-000494,Material1494,Consumable,Acme Corp,51.08,1458,Pending,2026-03-08
+SKU-000495,Material1495,Raw Material,Umbrella,52.45,1465,Backorder,2026-04-19
+SKU-000496,Material1496,Component,Acme Corp,53.82,1472,Active,2026-05-03
+SKU-000497,Material1497,Packaging,Umbrella,55.19,1479,Discontinued,2026-06-14
+SKU-000498,Material1498,Fixture,Acme Corp,56.56,1486,Pending,2026-01-25
+SKU-000499,Material1499,Consumable,Umbrella,57.93,1493,Backorder,2026-02-09
+SKU-000500,Material1500,Raw Material,Acme Corp,10.40,1500,Active,2026-03-20
