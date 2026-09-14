@@ -53,9 +53,11 @@ The tool simplifies migration testing by providing clear reports and visualizati
 
 ### Upload & Compare
 ![Upload](screenshots/upload.png)
+![Upload](screenshots/upload1.png)
 
 ### Comparison Result
-![Comparison](screenshots/comparison.png)
+![Comparison](screenshots/result1.png)
+![Comparison](screenshots/result2.png)
 
 ### Mobile Version
 ![Mobile](screenshots/mobile.png)
